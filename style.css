@@ -496,6 +496,8 @@ footer p {
   scale: 1.05;
   transition: all 0.3s ease;
 }
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   user-select: none;
 }
