@@ -785,7 +785,7 @@ function generateFooldal() {
   return `
   <div class="kartya">
             <h2 class="kartya-cim">Üdvözöljük az Digitális Ötletládában!</h2>
-            <p>Ez a platform lehetővé teszi, hogy ötleteidet, javaslataidat megosszuk az iskolai közösséggel. Itt találhatóak az iskolai napi ötletek, délutáni programok, sportesemények és egyéb javaslatok.</p>
+            <p>Ez a platform lehetővé teszi, hogy ötleteidet, javaslataidat megosszuk az iskolai közösségével. Itt találhatóak az iskola tanulói által beküldött ötletek, melyeket a titkárság jóvá tud hagyni.</p>
             <div>
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-top: 30px;">
                 <div class="stat-kartya" style="text-align: center; padding: 20px; background-color: #c5dffd; border-radius: var(--border-radius);">
