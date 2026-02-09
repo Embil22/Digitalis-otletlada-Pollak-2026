@@ -161,7 +161,19 @@ function generateOtletBekuldes() {
                 
                 <div class="urlam-csoport">
                     <label for="diakOsztalya">Osztály (opcionális)</label>
-                    <input type="text" id="diakOsztalya" name="diak_osztalya" placeholder="Pl.: 10.A">
+                    <select id="diakOsztalya" name="diak_osztalya">
+                      <option value="" selected disabled>Válassz osztályt</option>
+                      <option value="9.A">9.A</option>
+                      <option value="9.B">9.B</option>
+                      <option value="10.A">10.A</option>
+                      <option value="10.B">10.B</option>
+                      <option value="11.A">11.A</option>
+                      <option value="11.B">11.B</option>
+                      <option value="12.A">12.A</option>
+                      <option value="12.B">12.B</option>
+                      <option value="13.A">13.A</option>
+                      <option value="13.B">13.B</option>
+                    </select>
                 </div>
                 
                 <div class="urlam-csoport">
@@ -172,7 +184,7 @@ function generateOtletBekuldes() {
                 <div class="urlam-csoport">
                     <label for="otletKategoria">Kategória *</label>
                     <select id="otletKategoria" name="kategoria" required>
-                        <option value="">Válassz kategóriát</option>
+                        <option value="" selected disabled>Válassz kategóriát</option>
                         <option value="iskolai_nap">Iskolai nap ötletek</option>
                         <option value="délutáni_program">Délutáni programok</option>
                         <option value="sport">Sport események</option>
