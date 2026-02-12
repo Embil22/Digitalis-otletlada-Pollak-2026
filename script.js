@@ -1,6 +1,3 @@
-// script.js - Frissített változat
-
-// Alkalmazás állapot
 const appState = {
   currentPage: "fooldal",
   otletek: [],
